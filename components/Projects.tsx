@@ -5,6 +5,38 @@ import { ExternalLink, MessageCircle } from 'lucide-react';
 
 const projects = [
   {
+    id: 26,
+    title: 'Felipe Lopes Advocacia',
+    category: 'Jurídico',
+    image: 'https://lh3.googleusercontent.com/d/14yYwrbGx0MAnGy3Xy0P467-DfoQ9XPFo',
+    description: 'Plataforma digital para advocacia especializada, com foco em autoridade jurídica e captação estratégica de leads.',
+    url: 'https://felipelopesadvocacia.com.br/'
+  },
+  {
+    id: 25,
+    title: 'Flamboyant Consultoria',
+    category: 'Institucional',
+    image: 'https://lh3.googleusercontent.com/d/1nNzh9ZwaEXDJGMsEgRS9Z1320TGKMjq6',
+    description: 'Portal institucional para consultoria estratégica, focado em autoridade de marca e geração de leads qualificados.',
+    url: 'https://flamboyantconsultoria.com.br/'
+  },
+  {
+    id: 24,
+    title: 'Facilitador Car',
+    category: 'Automotivo',
+    image: 'https://lh3.googleusercontent.com/d/1rLWCyfCGDzZR8z5F77IGOwFcw_PKBZYe',
+    description: 'Solução digital para intermediação e facilitação de compra e venda de veículos em Portugal, com foco em conversão e UX.',
+    url: 'https://facilitadorcar.pt/'
+  },
+  {
+    id: 23,
+    title: 'Vale Conecta',
+    category: 'Institucional',
+    image: 'https://lh3.googleusercontent.com/d/1CLi3FbkmKjjPk3k4SjSaQWcbLyoBibh9',
+    description: 'Plataforma de conexão e networking regional, otimizada para visibilidade e engajamento no Vale do Paraíba.',
+    url: 'https://valeconecta.com.br/'
+  },
+  {
     id: 1,
     title: 'ContabilVision',
     category: 'Contabilidade',
