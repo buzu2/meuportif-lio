@@ -96,7 +96,7 @@ const projects = [
     id: 8,
     title: 'Isa Arteira',
     category: 'E-commerce',
-    image: 'https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?auto=format&fit=crop&q=80&w=800',
+    image: 'https://lh3.googleusercontent.com/d/1Rfq0wgQBj15yJqmbqA1JUdkoO4s1ps_D',
     description: 'Marketplace de artesanato personalizado com estratégia de tráfego de nicho.',
     url: 'https://isaarteira.com.br/'
   },
