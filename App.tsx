@@ -81,13 +81,13 @@ const App: React.FC = () => {
                 <Hero />
               </section>
               
-              <section id="sobre" className="py-20 md:py-32 bg-white scroll-mt-24">
+              <section id="sobre" className="py-16 md:py-24 bg-white scroll-mt-24">
                 <MotionWrapper>
                   <About />
                 </MotionWrapper>
               </section>
               
-              <section id="servicos" className="py-20 md:py-32 bg-slate-50 scroll-mt-24">
+              <section id="servicos" className="py-16 md:py-24 bg-slate-50 scroll-mt-24">
                 <MotionWrapper>
                   <Services onSelectService={(id) => {
                     setSelectedServiceId(id);
@@ -96,7 +96,7 @@ const App: React.FC = () => {
                 </MotionWrapper>
               </section>
 
-              <section id="sucesso" className="py-20 md:py-32 bg-white scroll-mt-24">
+              <section id="sucesso" className="py-16 md:py-24 bg-white scroll-mt-24">
                 <MotionWrapper>
                   <SuccessStories onSelectCase={(id) => {
                     setSelectedCaseId(id);
@@ -105,19 +105,19 @@ const App: React.FC = () => {
                 </MotionWrapper>
               </section>
               
-              <section id="projetos" className="py-20 md:py-32 bg-slate-50 scroll-mt-24">
+              <section id="projetos" className="py-16 md:py-24 bg-slate-50 scroll-mt-24">
                 <MotionWrapper>
                   <Projects />
                 </MotionWrapper>
               </section>
               
-              <section id="certificacoes" className="py-20 md:py-32 bg-white scroll-mt-24">
+              <section id="certificacoes" className="py-16 md:py-24 bg-white scroll-mt-24">
                 <MotionWrapper>
                   <Certifications />
                 </MotionWrapper>
               </section>
               
-              <section id="contato" className="py-20 md:py-32 bg-slate-900 text-white scroll-mt-24">
+              <section id="contato" className="py-16 md:py-24 bg-slate-900 text-white scroll-mt-24">
                 <MotionWrapper>
                   <Contact />
                 </MotionWrapper>

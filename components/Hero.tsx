@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
   const opacity = useTransform(scrollY, [0, 300], [1, 0]);
 
   return (
-    <div className="relative h-screen flex items-center justify-center overflow-hidden bg-slate-900 pt-20">
+    <div className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-slate-900 pt-24 pb-16">
       {/* Background Parallax Image */}
       <motion.div 
         style={{ y: y1 }}
@@ -29,29 +29,29 @@ const Hero: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-white leading-tight mb-8 mt-10">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-white leading-tight mb-6">
             SUA EMPRESA <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">
               Resultados Digitais
             </span>
           </h1>
-          <span className="inline-block px-4 py-1.5 mb-8 text-xs font-bold tracking-widest text-blue-400 uppercase bg-blue-400/10 rounded-full border border-blue-400/20">
+          <span className="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-blue-400 uppercase bg-blue-400/10 rounded-full border border-blue-400/20">
             Especialista em SEO & Performance
           </span>
-          <p className="max-w-2xl mx-auto text-lg md:text-xl text-slate-300 mb-10 leading-relaxed font-light">
+          <p className="max-w-2xl mx-auto text-lg md:text-xl text-slate-300 mb-8 leading-relaxed font-light">
             Impulsionando o crescimento de empresas através de estratégias avançadas de SEO, Marketing de Conteúdo e Inteligência de Dados.
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
             <a 
               href="#servicos" 
-              className="w-full sm:w-auto px-8 py-4 bg-blue-600 text-white font-bold rounded-full hover:bg-blue-700 transition-all shadow-xl shadow-blue-500/25 text-lg"
+              className="w-full sm:w-auto px-8 py-4 bg-blue-600 text-white font-bold rounded-full hover:bg-blue-700 transition-all shadow-xl shadow-blue-500/25 text-lg text-center"
             >
               Ver Soluções
             </a>
             <a 
               href="#sucesso" 
-              className="w-full sm:w-auto px-8 py-4 bg-white/10 text-white font-bold rounded-full hover:bg-white/20 transition-all backdrop-blur-sm border border-white/20 text-lg"
+              className="w-full sm:w-auto px-8 py-4 bg-white/10 text-white font-bold rounded-full hover:bg-white/20 transition-all backdrop-blur-sm border border-white/20 text-lg text-center"
             >
               Casos de Sucesso
             </a>
@@ -59,9 +59,9 @@ const Hero: React.FC = () => {
 
           <motion.div 
             style={{ opacity }}
-            className="mt-12 flex flex-col items-center"
+            className="mt-8 flex flex-col items-center"
           >
-            <p className="text-slate-500 text-xs font-medium mb-2 uppercase tracking-widest">Scroll para descobrir</p>
+            <p className="text-white text-xs font-medium mb-2 uppercase tracking-widest">Scroll para descobrir</p>
             <motion.div
               animate={{ y: [0, 8, 0] }}
               transition={{ repeat: Infinity, duration: 1.5 }}
@@ -72,7 +72,7 @@ const Hero: React.FC = () => {
         </motion.div>
 
         {/* Dynamic Badges */}
-        <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
+        <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
           {[
             { icon: Search, label: 'SEO Orgânico', value: '+150%' },
             { icon: BarChart3, label: 'ROI em Ads', value: '8.5x' },
